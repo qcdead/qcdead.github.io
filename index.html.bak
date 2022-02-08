@@ -8,7 +8,7 @@
 	</head>
 	<body>
 		<h1>Getting Started</h1>
-			<h2>Welcome</h2>
+			<ul><h2>Welcome</h2>
 				<p>Hello, this is my guide on how to port Train Simulator models into Transport Fever 2. This process is long and does involve alot of trial and error. I would heavily reccommend being profiecent in the tools required to do this process such as, Blender, LUA, and the Transport Fever 2 Model Editor. Should you not be profiecent in these tools I will attempt to do my best to explain, but their are resources on these tools at, <a href="https://www.transportfever.com/wiki/doku.php" target="_blank">TPF2 Wiki</a>, and <a href="https://www.transportfever.net/" target="_blank">Transport Fever net</a>. Not to mention the countless discord servers as well.</p> 
 			<h2>Important Notices</h2>
 				<p>This guide is purely educational, the contents of this guide should not be used for commerical purposes without the explict permission from the original TS model creator. This guide is also not responsable for your actions if shared, fair use is only applicable given the scenario if only for personal use. While this guide can be used to create shared models of copyrighted material in it of its self is not shared, and a third party must be used in order for the spread of copyrighted material to occur.</p>
@@ -21,6 +21,30 @@
 					<li><a href="https://github.com/xpawelsky/RipImport" target="_blank">Rip Import</a></li>
 					<li><a href="https://www.gimp.org/" target="_blank">GIMP</a> (Not Required, Photoshop can be used as an alternative)</li>
 					<li><a href="https://notepad-plus-plus.org/downloads/" target="_blank">Notepad++</a> (Not Required, Notepad can be used as an alternative)</li>
+					<li><a href="https://www.agenetools.com/downloads.html" target="_blank">TS-Tools</a> (Not Required, Only use if you need to extract extra textures not included on the model)</li>
+				</ul>
+			<h2>Setting up the Transport Fever 2 Model Editor</h2>
+				<p>In order to use the model editor it must first be told the directories of folders in a file you will create</p>
+				<p>First create a file titled "model_editor_settings.lua" in</p>
+				<hr><ul>
+					<li>%APPDATA%/Transport Fever 2/ for Windows</li>
+					<li>~/.local/share/Transport Fever 2 for Linux<li>
+					<li>/Users/<username>/Library/Application Support/Transport Fever 2/ for MacOS (Steam/GOG)</li>
+					<li>/Users/<username>/Library/Containers/com.gambitious.transportfever2/Data/Library/Application Support/Transport Fever 2/ for MacOS (App Store)</li>
+				</ul>
+				<hr>
+				<p>With the contents of</p>
+				<hr><ul>
+					<p>function data()</p>
+					<p>return {</p>
+					<p>importFbxPath = "C:/Users/<Name>/AppData/Roaming/Transport Fever 2/fbx_import/",</p>
+					<p>installPath = "",</p>
+					<p>userDataPath = "D:/Steam/userdata/<steamID>/1066780/local/",</p>
+					<p>}</p>
+					<p>end</p>
+				</ul>
+				<hr>
+				<p>You are now able to launch the Model Editor when needed</p>
 				</ul>
 	</body>
 </html>
