@@ -52,6 +52,7 @@
 					<p>Open the folder approprite to your sytem type x64 (64 Bit OS) x86 (32 Bit OS) and launch NinjaRipper.exe</p>
 					<p>With NinjaRipper now open select the .exe to launch TS in the railworks folder of your steam libary.</p>
 					<p>Change the output directory if neccesary, then click run</p>
+					<img src="images/NinjaRipper.png" alt="Ninja Ripper">
 				</ul>			
 			</ul>
 		<h1>Ripping the Model from TS</h1>
@@ -61,9 +62,11 @@
 			<ul>
 			<p>I would heavily reccommend using the build tool within Train Simulator because when using NinjaRipper you cannot select just the meshes you want. This results in some things such as grass, tracks, and skybox getting in when not needed using a regular map would only make this issue worse.</p>
 			<p>Start on an Empty map, and create a straight piece of track with the train/car (with driver) of your desire on, and press play and take control of the train</p>
+			<img src="images/TSSetup.png" alt="Train Simulator Correct Setup for Ninja Ripper">
 			<p>Once in control of the train, go to external view and hide all UI elements. Once done press F10, your game may freeze for a moment wait until you regrain control</p>
 			<p>Now check "C:\Users\YourAccountNameHere\NinjaRipper\_NinjaRipper" and make sure you have a folder from the latest date</p>
 			<p>You may now close TS, you have successfully ripped to model into a useable state for blender</p>
+			<img src="images/FileExplorer.png" alt="Correct Folder Layout for Ninja Ripper">
 			</ul>
 			</ul>
 		
@@ -71,8 +74,13 @@
 		<hr>
 			<ul><h2>Importing the Model into Blender</h2>
 				<ul><p>Open up the folder NinjaRipper had created, and open Blender. Within Blender open settings by going into Edit in the top left then Prefrences. With Prefrences open click on Add-ons then install. Select the folder from the Rip Import Git-Hub page. Once done click the box next to "Import: NinjaRipper RIP Format" and close prefrences. Now go to File in the top left click import then NinjaRipper. Copy the Directory from file explorer to Blender, click on one of the files. On the right select Import entire folder then select import at the bottom. Blender will freeze while it loads in the meshes.</p></ul>
+				<img src="images/Plugin.png" alt="Blender Plugin for Ninja Ripper">
+				<img src="images/Import.png" alt="Importing Into Blender">
 			<h2>Cleaning up the Cluster Fuck</h2>
 				<ul><p>When you import the model you will notice a cluster fuck of meshes. Most of these are unimportant and unneeded. It's important to rely on your judgement for this part just note some objects get centered ie they are at 0,0,0. Things like cabs, bogies, and other wonders that are important to the model can end up here. Also, make sure nothing is in the distance these meshes are guarenteed to not be part of the train itself and will cause issues later on if not dealt with. Each model is different, but delete anything that looks like it doesn't belong. Another thing to note is that the import creates multiple of one mesh inside of each other, how I deal with this going one by one and deleting the excess and once done moving it 5 meters along the axis so it doesn't interfere with other meshes. One of these maybe another type of map (metal, gloss, ect.) and appear all white, this one is also important to delete along with it's accosiated material. When completed the cleanup process your model should look like this</p></ul>
+				<img src="images/ClusterFuck.png" alt="The ClusterFuck">
+				<img src="images/Exampleofclusterfuck.png" alt="The ClusterFuck Meshes">
+				<img src="images/Good cleanup.png" alt="The ClusterFuck Cleanup">
 			<h2>Reassembling the Model</h2>
 			</ul>
 	</body>
