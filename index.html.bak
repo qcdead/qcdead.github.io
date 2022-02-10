@@ -8,6 +8,15 @@
 		<link rel="preconnect" href="https://fonts.googleapis.com">
 		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 		<link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+		<!-- Global site tag (gtag.js) - Google Analytics -->
+		<script async src="https://www.googletagmanager.com/gtag/js?id=G-T6R5TLL6KW"></script>
+		<script>
+			window.dataLayer = window.dataLayer || [];
+			function gtag(){dataLayer.push(arguments);}
+			gtag('js', new Date());
+
+			gtag('config', 'G-T6R5TLL6KW');
+		</script>
 	</head>
 	<body>
 		<main>
@@ -95,7 +104,7 @@
 				<p>The completed cleanup process should look like this.</p>
 				<img src="images/Completed Import.png" alt="Completed Import">
 				</ul>
-			<h2>Preparing For Transport Fever 2 import</h2>
+			<h2>Preparing for Transport Fever 2 Import</h2>
 			</ul>
 			
 			</main>
