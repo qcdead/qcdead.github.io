@@ -25,7 +25,10 @@
 			<ul><h2>Welcome</h2>
 				<ul><p>Hello, this is my guide on how to port Train Simulator models into Transport Fever 2. This process is long and does involve alot of trial and error. I would heavily reccommend being profiecent in the tools required to do this process such as, Blender, LUA, and the Transport Fever 2 Model Editor. Should you not be profiecent in these tools I will attempt to do my best to explain, but their are resources on these tools at, <a href="https://www.transportfever2.com/wiki/doku.php" target="_blank">TPF2 Wiki</a>, and <a href="https://www.transportfever.net/" target="_blank">Transport Fever net</a>. Not to mention the countless discord servers as well.</p></ul>
 			<h2>Important Notices</h2>
-				<ul><p>This guide is purely educational, the contents of this guide should not be used for commerical purposes without the explict permission from the original TS model creator. This guide is also not responsable for your actions if shared, fair use is only applicable given the scenario if only for personal use. While this guide can be used to create shared models of copyrighted material in it of its self is not shared, and a third party must be used in order for the spread of copyrighted material to occur.</p></ul>
+				<ul><p>This guide is purely educational, the contents of this guide should not be used for commerical purposes without the explict permission from the original TS model creator. This guide is also not responsable for your actions if shared, fair use is only applicable given the scenario if only for personal use. While this guide can be used to create shared models of copyrighted material in it of its self is not shared, and a third party must be used in order for the spread of copyrighted material to occur.</p>
+				<p>This site uses Google Analytics to track the amount of traffic on the site</p>
+				</ul>
+				
 			<h2>Prerequisites</h2>
 				<ul>
 					<li><a href="https://store.steampowered.com/app/24010/Train_Simulator_2022/" target="_blank">Train Simulator</a></li>
@@ -105,8 +108,14 @@
 				<img src="images/Completed Import.png" alt="Completed Import">
 				</ul>
 			<h2>Preparing for Transport Fever 2 Import</h2>
+				<ul><p>Navigate to "C:\Users\YourAccountNameHere\AppData\Roaming\Transport Fever 2\fbx_import" and create a new folder with the title of "vehicle-vehicletype-vehiclename_binary". For example vehicle-train-alp46_binary. Within this folder create another folder titled "vehicle-vehicletype-vehiclename". For example vehicle-train-alp46_binary. Export the FBX to this location titled "vehicle-vehicletype-vehiclename_lod0". For example vehicle-train-alp46_lod0. More LOD's can be added by adding 1 to the end. lod1.
+				<img src="images/FBX import.png" alt="Folder with FBX for Import">
+				<p>Next navigate to "C:\Program Files (x86)\Steam\userdata\YourSteamIDHere\1066780\local\staging_area" and duplicate example_mod_1. My personal naming sceme of the folder goes authorname_train_1. For example qc_alp46_1. Once this folder is created, open mod.lua and change the name and description to your liking.</p>
+				<img src="images/modlua.png" alt="example of mod.lua">
+				</ul>
 			</ul>
-			
+			<h1>The Transport Fever 2 Model Editor</h1>
+			<hr>
 			</main>
 	</body>
 </html>
