@@ -46,19 +46,18 @@
 				<p>First create a file titled "model_editor_settings.lua" in</p>
 				<hr><ul>
 					<li>%APPDATA%/Transport Fever 2/ for Windows</li>
-					<li>~/.local/share/Transport Fever 2 for Linux</li>
-					<li>/Users/<username>/Library/Application Support/Transport Fever 2/ for MacOS (Steam/GOG)</li>
-					<li>/Users/<username>/Library/Containers/com.gambitious.transportfever2/Data/Library/Application Support/Transport Fever 2/ for MacOS (App Store)</li>
+					<li>/.local/share/Transport Fever 2 for Linux</li>
+					<li>/Users/username/Library/Application Support/Transport Fever 2/ for MacOS (Steam/GOG)</li>
+					<li>/Users/username/Library/Containers/com.gambitious.transportfever2/Data/Library/Application Support/Transport Fever 2/ for MacOS (App Store)</li>
 					</ul>
 				<hr>
 				<p>With the contents of</p>
 				<hr><ul>
 					<p>function data()</p>
-					<p>return {</p>
+					<p>return</p>
 					<p>importFbxPath = "C:/Users/YourAccountNameHere/AppData/Roaming/Transport Fever 2/fbx_import/",</p>
 					<p>installPath = "",</p>
 					<p>userDataPath = "D:/Steam/userdata/YourSteamIDHere/1066780/local/",</p>
-					<p>}</p>
 					<p>end</p>
 				</ul>
 				<hr>
@@ -96,7 +95,7 @@
 			<h2>Cleaning up the Cluster Fuck</h2>
 				<ul><p>When you import the model you will notice a cluster fuck of meshes. Most of these are unimportant and unneeded.</p>
 				<img src="images/ClusterFuck.png" alt="The ClusterFuck">
-				<p>It's important to rely on your judgement for this part just note some objects get centered ie they are at 0,0,0. Things like cabs, bogies, and other wonders that are important to the model can end up here. Also, make sure nothing is in the distance these meshes are guarenteed to not be part of the train itself and will cause issues later on if not dealt with. Each model is different, but delete anything that looks like it doesn't belong. Another thing to note is that the import creates multiple of one mesh inside of each other, how I deal with this going one by one and deleting the excess and once done moving it 5 meters along the axis so it doesn't interfere with other meshes.</p>
+				<p>It's important to rely on your judgement for this part just note some objects get centered ie they are at 0,0,0. Things like cabs, bogies, and other wonders that are important to the model can end up here. Also, make sure nothing is in the distance these meshes are guarenteed to not be part of the train itself and will cause issues later on if not dealt with. Each model is different, b ut delete anything that looks like it doesn't belong. Another thing to note is that the import creates multiple of one mesh inside of each other, how I deal with this going one by one and deleting the excess and once done moving it 5 meters along the axis so it doesn't interfere with other meshes.</p>
 				<img src="images/Exampleofclusterfuck.png" alt="The ClusterFuck Meshes">
 				<p>One of these maybe another type of map (metal, gloss, ect.) and appear all white, this one is also important to delete along with it's accosiated material. When completed the cleanup process your model should look like this</p></ul>
 				<img src="images/Good cleanup.png" alt="The ClusterFuck Cleanup">
@@ -115,6 +114,12 @@
 				</ul>
 			</ul>
 			<h1>The Transport Fever 2 Model Editor</h1>
+				<ul>
+					<h2>Launching the Transport Fever 2 Model Editor</h2>
+						<ul>
+							<p>
+						</ul>
+				</ul>
 			<hr>
 			</main>
 	</body>
